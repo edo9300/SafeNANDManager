@@ -13,7 +13,7 @@ export TOPDIR	:=	$(CURDIR)
 NITRO_FILES	:=
 
 # These set the information text in the nds file
-GAME_TITLE     := SafeNANDManager
+GAME_TITLE     := Safe NAND Manager
 GAME_SUBTITLE1 := Dump or Restore DSi NAND
 GAME_SUBTITLE2 := zoogie & Rocket Robz
 
