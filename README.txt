@@ -22,6 +22,7 @@ Thanks:
 zoogie - Original dumpTool app
 Martin Korth (nocash) - Documenting the consoleID dumping method on GBAtek.
 Tinivi - Borrowed his 3ds mode (arm9) aes function from https://github.com/TiniVi/AHPCFW/
+zacchi4k - Displaying ConsoleID and CID
 WulfyStylez - Loosely followed his method for nocash footer verification in twlTool:
 https://gbatemp.net/threads/release-twltool-dsi-downgrading-save-injection-etc-multitool.393488/ (attachment has source code)
 neimod - Taddy dsi aes functions (dsi.c/h) https://github.com/neimod/dsi/tree/master/taddy (this inlcludes some polarssl files (aes.c/h) and that is GPL v2, info in aes.h)
