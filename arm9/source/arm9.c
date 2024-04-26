@@ -56,6 +56,13 @@ void getConsoleID(u8 *consoleID){
 	
 	memcpy(key, fifo, 16);  //receive the goods from arm7
 
+	if(memcmp(key + 8, empty_buff, 8) == 0)
+	{
+		//we got the consoleid directly or nothing at all, don't treat this as key3 output
+		memcpy(consoleID, key, 8);
+		return;
+	}
+
 	F_XY_reverse((uint32_t*)key, (uint32_t*)key_xy); //work backwards from the normalkey to get key_x that has the consoleID
 	
 	for(int i=0;i<16;i++){
