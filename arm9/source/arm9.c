@@ -301,7 +301,7 @@ int main(void) {
 	dsiOnly();
 
 	consoleDemoInit();
-	iprintf("SafeNANDManager v1.1 by\n");
+	iprintf("SafeNANDManager v1.1.1 by\n");
 	iprintf("Rocket Robz (dumpTool by zoogie)\n");
 
 	workbuffer=(u8*)malloc(CHUNKSIZE);
