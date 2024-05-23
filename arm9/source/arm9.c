@@ -54,6 +54,8 @@ void getConsoleID(u8 *consoleID){
 		swiWaitForVBlank();
 	}
 	
+	u8 empty_buff[8] = {0};
+
 	memcpy(key, fifo, 16);  //receive the goods from arm7
 
 	if(memcmp(key + 8, empty_buff, 8) == 0)
