@@ -4,6 +4,7 @@ int main()
 {
 	irqInit();
 	fifoInit();
+	initClockIRQTimer(3);
 
 	struct {
 		u64 consoleId;
